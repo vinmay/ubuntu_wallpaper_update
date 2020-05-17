@@ -1,7 +1,7 @@
 import requests, json, os
 from datetime import date
 
-API_URL = "https://api.nasa.gov/planetary/apod?api_key=iFMisDCaGUQG1kswmBB16b0rNLk3VErbWHtHnFAW"
+API_URL = "https://api.nasa.gov/planetary/apod?api_key=<APIKEY>"
 FOLDER_NAME = "/home/xephyr/apod/"
 data = requests.get(API_URL)
 CHUNK_SIZE = 8192
